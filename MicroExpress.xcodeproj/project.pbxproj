@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		DC6C4C8B218E293F000D17E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C4C8A218E293F000D17E0 /* main.swift */; };
+		DC6C4C93218E298C000D17E0 /* Express.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C4C92218E298C000D17E0 /* Express.swift */; };
+		DC6C4C95218E3082000D17E0 /* IncomingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C4C94218E3082000D17E0 /* IncomingMessage.swift */; };
+		DC6C4C97218E32A1000D17E0 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C4C96218E32A1000D17E0 /* ServerResponse.swift */; };
+		DC6C4C99218E355F000D17E0 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C4C98218E355F000D17E0 /* Middleware.swift */; };
+		DC6C4C9B218E368E000D17E0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6C4C9A218E368E000D17E0 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC6C4C87218E293F000D17E0 /* MicroExpress */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MicroExpress; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6C4C8A218E293F000D17E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = Sources/MicroExpress/main.swift; sourceTree = "<group>"; };
 		DC6C4C8C218E293F000D17E0 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		DC6C4C92218E298C000D17E0 /* Express.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Express.swift; sourceTree = "<group>"; };
+		DC6C4C94218E3082000D17E0 /* IncomingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingMessage.swift; sourceTree = "<group>"; };
+		DC6C4C96218E32A1000D17E0 /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		DC6C4C98218E355F000D17E0 /* Middleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
+		DC6C4C9A218E368E000D17E0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +58,11 @@
 			children = (
 				DC6C4C8A218E293F000D17E0 /* main.swift */,
 				DC6C4C8C218E293F000D17E0 /* Package.swift */,
+				DC6C4C92218E298C000D17E0 /* Express.swift */,
+				DC6C4C94218E3082000D17E0 /* IncomingMessage.swift */,
+				DC6C4C96218E32A1000D17E0 /* ServerResponse.swift */,
+				DC6C4C98218E355F000D17E0 /* Middleware.swift */,
+				DC6C4C9A218E368E000D17E0 /* Router.swift */,
 			);
 			path = MicroExpress;
 			sourceTree = "<group>";
@@ -126,6 +141,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6C4C99218E355F000D17E0 /* Middleware.swift in Sources */,
+				DC6C4C95218E3082000D17E0 /* IncomingMessage.swift in Sources */,
+				DC6C4C97218E32A1000D17E0 /* ServerResponse.swift in Sources */,
+				DC6C4C93218E298C000D17E0 /* Express.swift in Sources */,
+				DC6C4C9B218E368E000D17E0 /* Router.swift in Sources */,
 				DC6C4C8B218E293F000D17E0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
