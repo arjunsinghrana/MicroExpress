@@ -9,3 +9,6 @@
 import Foundation
 import NIO
 
+let app = Express()
+
+app.listen(1337)
